@@ -1,0 +1,73 @@
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.form-container{
+    text-align: center;
+    margin-top: 90px;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 600;
+    color: #0C0C0C;
+    text-align: center;
+}
+
+ul li{
+    list-style-type: none
+}
+
+input{
+    width: 392px;
+    height: 40px;
+    border: 1px solid #606060;
+    padding: 0 16px 0 16px;
+    margin-top: 6px;
+}
+
+button{
+    width: 425px;
+    height: 45px;
+    border: none;
+    padding: 16px;
+    margin-top: 15px;
+    background-color: #5A6D57;
+    color: #fff;
+}
+
+.terms-container {
+    text-align: center;
+    margin-top: 20px;
+    color: #0C0C0C;
+}
+
+.socials{
+    justify-content: center;
+    display: flex;
+    gap: 24px;
+}
+
+.account p{
+    font-size: 14px;
+}
+
+.account p a{
+    font-size: 14px;
+}
+
+.terms p{
+    font-size: 12px;
+}
+
+.terms p a{
+    font-size: 12px;
+}
+
+a{
+    color: #748C70;
+}
+
+

@@ -1,0 +1,45 @@
+.hero{
+    height: 600px;
+
+    background-image: url(https://s3-alpha-sig.figma.com/img/5acf/40a1/4ec616f602d9f91b003061a5deef40d0?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Yxz7uLVCT1sWGJKAz-W7t58Nypcs4NUAIkORmx9r~xiiHl1pWE5Phdfq1nc5PbhdDggfmml26fihHX17GelPpB-KT08hXAccvhHes9iAtQA5vVbaXI5kAXgAj~0TO1W06FqECwUtNRfSYpnyeVdsfph0WINLHJlni99jiRTjfqzU1SU-3wKY6PEzExy-xPcSy2e7AL0p3t5kW5fYmOF32IN~ffLfjGk8GmYk5XZKuMO1Kn3OEbY81bX6b1oQNj1~H~53sgkf-R4LL-oHv86friM7is7zO~xuPpVxwtZS4IgDnsdsQwkNSbf2AJoCyP8lt0WyEfwvTc2a61DTbW09mg__);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero .container{
+    height: 100%;
+}
+
+.hero_content{
+    height: 50%;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 300px;
+}
+
+.hero_title{
+    max-width: 450px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 180%;
+    text-transform: capitalize;
+    color: black;
+}
+
+a.btn{
+    padding: 16px;
+    min-width: 185px;
+    height: 15px;
+    width: 40px;
+    background-color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-transform: capitalize;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}

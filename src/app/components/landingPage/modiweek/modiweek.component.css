@@ -1,0 +1,12 @@
+.container{
+    padding: 0 50px;
+}
+
+.title{
+    margin: 1em 0 0.5em;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: black;
+}

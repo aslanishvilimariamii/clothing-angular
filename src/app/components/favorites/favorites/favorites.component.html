@@ -1,0 +1,55 @@
+<app-header></app-header>
+<h3>My Wish List</h3>
+<div class="productList">
+    <ul>
+        <li *ngFor="let product of FavoritesService.FavoritesList">
+            <div class="product-card">
+                <div class="product-image">
+                    <img [src]="product.photo" alt="sdfghj">
+                </div>
+                <div class="product-info">
+                    <div class="product-header">
+                        <h2>{{product.title}}</h2>
+                    </div>
+                    <div class="card_cols">
+                    <p class="product-description">{{product.description}}</p>
+                    <p class="product-price">{{product.price}}</p>
+                    </div>
+                    <div class="product-colors">
+                        <ul>
+                            <li *ngFor="let color of product.colors">
+                                <div class="color-ball" [ngStyle]="{'background-color': color}"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<div class="productList">
+    <ul>
+        <li *ngFor="let product of ProductsService.ProductsList">
+            <h2>product.photo</h2>
+            <h2>product.title</h2>
+            <h2>product.description</h2>
+            <h2>product.price</h2>
+            <h2>product.colors</h2>
+        </li>
+    </ul>
+</div>
+-->
+<app-footer></app-footer>
